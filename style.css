@@ -202,12 +202,12 @@ section{
         transform: rotate(360deg);
     }
 }
-.title{
+.heading{
     font-size: 4.5rem;
     text-align: center;
     margin-bottom: 2rem;
 }
-.title span{
+.heading span{
     color: var(--main-color);
 }
 .services-cont{
@@ -276,13 +276,11 @@ section{
     grid-template-columns: 1fr  2fr;
     gap :5rem;
 }
-.resume-box .heading{
+.resume-box h2{
    font-size: 4.5rem;
    text-align: center;
 }
-.resume-cont  .heading span{
-    color: var(--main-color);
-}
+
 .resume-box .des{
     margin: 2rem 0 2.5rem;
     margin-bottom: 4rem; 
