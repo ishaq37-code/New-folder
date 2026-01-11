@@ -143,7 +143,7 @@ section {
     align-items: center;
 }
 
-.hero-btn {
+.btn {
     display: inline-block;
     padding: 1rem 3rem;
     background-color: var(--main-color);
@@ -156,7 +156,7 @@ section {
     transition: .5s;
 }
 
-.hero-btn:hover {
+.btn:hover {
     background-color: transparent;
     color: var(--main-color);
     box-shadow: none;
@@ -622,4 +622,40 @@ scale: 1;
 }
 .protfolio-box .navgation .right{
  margin-left: 1.5rem;
+}
+.contact-cont{
+ display: grid;
+ grid-template-columns: 1fr 1.3fr;
+ gap: 3rem;
+
+}
+.contact-cont .contact-box:first-child{
+ align-self: center;
+}
+.contact-box h2{
+    font-size: 4.5rem;
+}
+.contact-box p{
+    font-size: 1.6rem;
+}
+.contact-box .des{
+    margin: 1.5rem 0 2.5rem;
+}
+.contact-box .contact-details{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+.contact-details i{
+    display: inline-flex;
+    background-color: var(--second-bg-color);
+    color: var(--main-color);
+    font-size: 2rem;
+    padding: 1.2rem;
+    
+    border-radius: .6rem;
+    margin-right: 1.5rem;
+}
+.contact-details .details p:first-child{
+   color: var(--main-color);
 }
